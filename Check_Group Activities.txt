@@ -1,0 +1,93 @@
+CHECK SKILL BUILDING ACTIVITY :Coding Time while loop
+Antonette Lariosa BSIT-A1
+
+
+1.)
+num = 10
+
+while num>=1:
+    print(num)
+    num = num - 1
+ Output:
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+
+2.)
+print("Enter 5 numbers: ")
+sum=0
+ctr=1
+while (ctr<=5):
+    num=int(input(""))
+    sum+=num
+    ctr+=1
+print("SUM: ",sum)
+Output:
+Enter 5 numbers: 
+10
+10
+10
+10
+10
+SUM:  50
+
+3.)
+num = int(input("Enter num: "))
+c = 1
+while c <= num:
+        print(c)
+        c+=1
+Output:
+Enter num: 10
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+4.)
+message = input("Enter message: ")
+num = int(input("Enter num: "))
+c = 1
+while c <= num:
+        print(message)
+        c+=1
+Output:
+Enter word: Hi World
+Enter num 9
+Hi World
+Hi World
+Hi World
+Hi World
+Hi World
+Hi World
+Hi World
+Hi World
+Hi World
+
+5.)
+secretWord = ("Chamber of Secrets")
+while True:
+        userGuess = input("Enter the secret word: ")
+        if userGuess == secretWord:
+            print("Congratulations! You guessed the secret word!")
+            break
+        else:
+            print("Try again.")
+Output:
+Enter the secret word: idk
+Try again.
+Enter the secret word: Chamber of Secrets
+Congratulations! You guessed the secret word!

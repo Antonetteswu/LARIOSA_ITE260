@@ -1,0 +1,38 @@
+Antonette Lariosa BSIT-A1
+1.)
+carBrands = ["BMW" , "Toyota" , "Volkswagen" , "Mercedes-Benz"]
+carBrands.append ("Nissan")
+carBrands.append("Ford")
+carBrands.append("Chevrolet")
+print(carBrands)
+
+Output:
+['BMW', 'Toyota', 'Volkswagen', 'Mercedes-Benz', 'Nissan', 'Ford', 'Chevrolet']
+
+
+2.)
+motorBrands = ["Honda" , "Kawasaki" , "Harley-Davidson" , "Yamaha" , "Suzuki"]
+motorBrands.insert(3, "Ducati")
+del motorBrands [5]
+print(motorBrands)
+
+Output:
+['Honda', 'Kawasaki', 'Harley-Davidson', 'Ducati', 'Yamaha']
+
+
+3.)
+fruitType =["Apple" , "Orange" , "Strawberry" , "Grapes" , "Mango"]
+fruitType [4] ="Kiwi"
+print(fruitType)
+
+Output:
+['Apple', 'Orange', 'Strawberry', 'Grapes', 'Kiwi']
+
+4.)
+animals = ["Lion" , "Tiger" , "Zebra" , "Horse" , "Cat"]
+animals.remove ("Tiger")
+print(animals)
+
+Output:
+['Lion', 'Zebra', 'Horse', 'Cat']
+

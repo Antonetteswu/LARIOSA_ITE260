@@ -1,0 +1,102 @@
+A.
+1.)
+x=0
+a=5
+b=5
+if a > 0:
+    if b<0:
+        x= x+5
+    elif a > 5:
+        x=x+4
+    else:
+        x=x+3
+else:
+    x=x+2
+print(x)
+
+Output:
+3
+
+2.)
+NUM1= 50
+NUM2= 500
+print("I") if NUM1 > NUM2 else print("LOVE") if NUM1 == NUM2 else print("PYTHON")
+
+Output:
+PYTHON
+
+3.)
+x=0
+a=5
+b=-5
+if a > 0:
+    if b<0:
+        x = x + 5
+    elif a > 5:
+        x = x + 4
+    else:
+        x = x + 3
+else:
+    x = x + 2
+print(x)
+
+Output:
+5
+
+B. CODING TIME
+
+firstName= input("Enter your first name: ")
+lastName= input("Enter your last name: ")
+salary= int(input("Enter your salary: "))
+rating= int(input("Enter the rating: "))
+
+
+if salary > 0:
+    if rating ==1:
+        bonus =salary * 0.01
+    elif rating ==2:
+        bonus=salary * 0.06
+    elif rating == 3:
+        bonus =salary * 0.03
+    elif rating == 4:
+        bonus = 0
+    else:
+        bonus = 0
+else:
+   print("")
+       
+print("Name: " + firstName + " " + lastName)
+print("Salary: " + str(salary))
+print("Rating: " + str(rating))
+print("Bonus " + str(bonus))
+
+Output:
+Enter your first name: Antonette
+Enter your last name: Lariosa
+Enter your salary: 65000
+Enter the rating: 3
+Name: AntonetteLariosa
+Salary: 65000
+Rating: 3
+Bonus 1950.0
+
+B. Activity 3: Check for Understanding
+1.)
+if x == y and z==a:
+    print("Python")
+
+2.)
+if x == y or z == a:
+    print("Python")
+
+3.)
+print("One is equal to one!") if 1 == 1 else print("Not equal")
+
+4.)
+print("Yes")if 1 == 1 else print("No")
+
+5.)
+if 1==1:
+    print("One is equal to one!")
+
+

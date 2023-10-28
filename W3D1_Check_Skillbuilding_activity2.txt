@@ -1,0 +1,56 @@
+1.)
+number=int(input("Enter number: "))
+if number > 0:
+    print("POSITIVE")
+else:
+    print("NEGATIVE")
+
+Output:
+Enter number: 10
+POSITIVE
+
+2.)
+name=input("Enter your name: ")
+sub1=int(input("Enter your grade for sub1: "))
+sub2=int(input("Enter your grade for sub2: "))
+sub3=int(input("Enter your grade for sub3: "))
+sub4=int(input("Enter your grade for sub4: "))
+sub5=int(input("Enter your grade for sub5: "))
+sum=(sub1+sub2+sub3+sub4+sub5)/5
+print("Average: " + str(sum))
+print("Name: " + name)
+if sum>85:
+    print("Highest honor")
+elif sum>=80:
+    print("Higher with honor")
+elif sum>=75:
+    print("Pass")
+else:
+    print("Fail")
+
+Output:
+Enter your name: Antonette
+Enter your grade for sub1: 90
+Enter your grade for sub2: 89
+Enter your grade for sub3: 88
+Enter your grade for sub4: 94
+Enter your grade for sub5: 96
+Average: 91.4
+Name: Antonette
+Highest honor
+
+3.)
+userName=input("Enter your username: ")
+password=input("Enter password: ")
+
+user="Antonette"
+passw="queenfantasticlady"
+if userName == user and password ==passw:
+    print("LOGIN")
+else:
+    print("Try again")
+
+Output:
+Enter your username: Antonette
+Enter password: queenfantasticlady
+LOGIN
